@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Verificación de Contraseña</title>
+    <script>
+        function verificarContraseña() {
+            var contraseña = prompt("Introduce la contraseña:");
+            if (contraseña === "TEQUIEROMUCHO") {
+                window.location.href = "https://marb28.github.io/flowers/"; // Redirige a otra página si la contraseña es correcta
+            } else {
+                alert("Contraseña incorrecta.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>CONTRASEÑA OÑO</h1>
+    <button onclick="verificarContraseña()">Ingresar</button>
+</body>
+</html>
